@@ -1,0 +1,9 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () { return view('home'); });
+Route::get('/students', function () { return view('students.index'); });
+Route::get('/students/create', function () { return view('students.create'); });
+Route::get('/students/1', function () { return view('students.show'); });
+Route::get('/students/1/edit', function () { return view('students.edit'); });

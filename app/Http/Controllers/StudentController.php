@@ -64,4 +64,4 @@ class StudentController extends Controller
 
         return redirect('/students')->with('success', 'Student removed from database!');
     }
-}
+}  

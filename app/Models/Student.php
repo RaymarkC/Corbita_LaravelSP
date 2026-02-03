@@ -11,4 +11,4 @@ class Student extends Model
 
     // This line allows the form data to be saved to MySQL
     protected $fillable = ['name', 'course', 'year_level'];
-}
+} 

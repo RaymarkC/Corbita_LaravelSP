@@ -10,4 +10,4 @@
             <button class="btn btn-outline-secondary btn-lg px-5">Learn More</button>
         </div>
     </div>
-@endsection
+@endsection 
